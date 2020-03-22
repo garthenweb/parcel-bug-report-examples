@@ -1,3 +1,3 @@
-# Collection of examples for parcel bug reports
+# Run `npm start` or `npm run start:simple`
 
-This is a base template to reproduce parcel bugs in isolation. Each report will be it's own branch.
+Build works as expected, but when opening the browser the bundle throws `Uncaught Error: Could not resolve bundle with id d1bf46dc60f6c63f`.
