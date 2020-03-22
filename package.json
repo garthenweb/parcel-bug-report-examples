@@ -24,5 +24,8 @@
   "devDependencies": {
     "parcel": "^2.0.0-nightly.163",
     "serve": "^11.3.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.15.0"
   }
 }
