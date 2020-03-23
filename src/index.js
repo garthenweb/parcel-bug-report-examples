@@ -1,3 +1,11 @@
-document.querySelector("main").classList.remove('error')
-document.querySelector("main").classList.add('success')
-document.querySelector("main").innerHTML = "Everything is working as expected";
+import React, { Suspense } from "react";
+import { render } from "react-dom";
+
+const Layout = React.lazy(() => import("./Layout"));
+
+render(
+  <Suspense fallback={null}>
+    <Layout />
+  </Suspense>,
+  document.querySelector("main")
+);

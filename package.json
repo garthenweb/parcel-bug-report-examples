@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rm -rf .parcel-cache",
     "prebuild": "npm run clean",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-minify",
     "prebuild:simple": "npm run clean",
     "build:simple": "npm run build -- --no-scope-hoist",
     "start": "npm run build && npm run serve",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "parcel": "^2.0.0-nightly.163",
     "serve": "^11.3.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
