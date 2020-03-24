@@ -1,3 +1,3 @@
-# Collection of examples for parcel bug reports
+# Run `npm start`
 
-This is a base template to reproduce parcel bugs in isolation. Each report will be it's own branch.
+Open the browser and see the console throws with `Uncaught ReferenceError: parcelRequire is not defined` in `service-worker.js`.

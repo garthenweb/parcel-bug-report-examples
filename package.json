@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rm -rf .parcel-cache",
     "prebuild": "npm run clean",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-minify",
     "prebuild:simple": "npm run clean",
     "build:simple": "npm run build -- --no-scope-hoist",
     "start": "npm run build && npm run serve",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/garthenweb/parcel-bug-report-examples#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
+    "core-js": "^3.6.4",
     "parcel": "^2.0.0-nightly.163",
     "serve": "^11.3.0"
   }
