@@ -1,3 +1,5 @@
-# Collection of examples for parcel bug reports
+# Upgrade Required on Watch
 
-This is a base template to reproduce parcel bugs in isolation. Each report will be it's own branch.
+Execute `npm run watch`. As soon as parcel is ready go to `http://localhost:1234`.
+
+Observe the status code is 206.
