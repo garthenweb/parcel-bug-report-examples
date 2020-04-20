@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@parcel/config-default"
+  ],
+  "runtimes": {
+    "browser": [
+      "@parcel/runtime-js",
+      "@parcel/runtime-browser-hmr",
+      "parcel-runtime-test",
+      "@parcel/runtime-react-refresh"
+    ]
+  }
+}
