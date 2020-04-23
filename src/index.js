@@ -1,3 +1,5 @@
-document.querySelector("main").classList.remove('error')
-document.querySelector("main").classList.add('success')
-document.querySelector("main").innerHTML = "Everything is working as expected";
+const btoa = process.browser
+  ? globalThis.btoa
+  : (str) => Buffer.from(str.toString(), "binary").toString("base64");
+
+console.log(btoa("test"));

@@ -5,12 +5,11 @@
   "scripts": {
     "clean": "rm -rf .parcel-cache",
     "prebuild": "npm run clean",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.js",
     "prebuild:simple": "npm run clean",
     "build:simple": "npm run build -- --no-scope-hoist",
     "start": "npm run build && npm run serve",
     "start:simple": "npm run build:simple && npm run serve",
-    "watch": "parcel watch src/index.html",
     "serve": "serve dist"
   },
   "repository": {
