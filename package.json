@@ -22,8 +22,11 @@
     "url": "https://github.com/garthenweb/parcel-bug-report-examples/issues"
   },
   "homepage": "https://github.com/garthenweb/parcel-bug-report-examples#readme",
+  "dependencies": {
+    "object-hash": "2.0.3"
+  },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.226",
+    "parcel": "2.0.0-nightly.273",
     "serve": "^11.3.0"
   }
 }

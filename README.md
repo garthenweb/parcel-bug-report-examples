@@ -1,3 +1,3 @@
-# Collection of examples for parcel bug reports
+# Uncaught ReferenceError: require is not defined
 
-This is a base template to reproduce parcel bugs in isolation. Each report will be it's own branch.
+Run `npm start` and open the browser. See the error in the JS console.
