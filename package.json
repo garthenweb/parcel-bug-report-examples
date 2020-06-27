@@ -5,12 +5,15 @@
   "scripts": {
     "clean": "rm -rf .parcel-cache",
     "prebuild": "npm run clean",
-    "build": "parcel build src/index.html",
-    "prebuild:simple": "npm run clean",
-    "build:simple": "npm run build -- --no-scope-hoist",
-    "start": "npm run build && npm run serve",
-    "start:simple": "npm run build:simple && npm run serve",
-    "serve": "serve dist"
+    "build": "parcel build --target server src/index.js"
+  },
+  "targets": {
+    "browser": {
+      "context": "browser"
+    },
+    "server": {
+      "context": "node"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,7 +25,7 @@
   },
   "homepage": "https://github.com/garthenweb/parcel-bug-report-examples#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.163",
+    "parcel": "^2.0.0-nightly.318",
     "serve": "^11.3.0"
   }
 }
