@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/garthenweb/parcel-bug-report-examples#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.318",
+    "parcel": "^2.0.0-nightly.352",
     "serve": "^11.3.0"
   }
 }

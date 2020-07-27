@@ -18,6 +18,6 @@ Error: Got unexpected undefined
     at Function.traverse.node (/.../parcel-bug-report-examples/node_modules/@babel/traverse/lib/index.js:84:17)
 ```
 
-Run `parcel build --target server src/index.js` to run the example.
+Run `npx parcel build --target server src/index.js` or `npm run build` to run the example.
 
-Compare to `parcel build --target browser src/index.js` which is working as expected.
+Compare to `npx parcel build --target browser src/index.js` which is working as expected.
