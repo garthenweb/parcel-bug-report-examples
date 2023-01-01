@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/garthenweb/parcel-bug-report-examples#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.163",
+    "parcel": "^2.8.2",
     "serve": "^11.3.0"
   }
 }
